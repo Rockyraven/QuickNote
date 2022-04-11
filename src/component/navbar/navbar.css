@@ -1,0 +1,33 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.nav-heading{
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgb(139, 139, 139);
+    text-decoration: none;
+}
+.home-heading{
+    margin-left: 4rem;
+}
+
+
+.login-section {
+    margin-left: auto;
+    display: flex;
+    margin-right: 4rem;
+    gap: 2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.login-section .a{
+    font-size: 2rem;
+}
