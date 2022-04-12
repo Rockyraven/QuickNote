@@ -1,16 +1,15 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
-// import './navbar.css'
+import { Link } from 'react-router-dom'
 import './navbar.css'
 
 
 export const Navbar = () => {
   return (
     <nav className="nav-heading">
-    <a href="/"><h1 className="home-heading">QuickNote</h1></a>
+    <Link to="/"><h1 className="home-heading">QuickNote</h1></Link>
     
     <div className="login-section">
-        <a href="#" className="login">Login</a>
+        <Link to="/login" className="login">Login</Link>
 
     </div>
 </nav>

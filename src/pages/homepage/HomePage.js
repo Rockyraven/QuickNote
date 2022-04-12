@@ -18,7 +18,7 @@ export const HomePage = () => {
                   <p>Here Your data is Secure</p>
                   <div className="explore-button">
 
-                  <a href="/NotePage" className='note-button '>Explore More <i className='fa fa-arrow-right'></i></a>
+                  <Link to="/NotePage" className='note-button '>Explore More <i className='fa fa-arrow-right'></i></Link>
                   </div>
               </div>
           </div>
